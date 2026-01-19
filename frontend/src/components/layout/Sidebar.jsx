@@ -56,12 +56,7 @@ const Sidebar = ({ open, onClose }) => {
       {/* Footer */}
       <div className="p-4 border-t border-slate-200 dark:border-white/10">
         <div className="flex items-center gap-3 px-4 py-3 rounded-xl bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10">
-          <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 text-white font-semibold">
-            AV
-          </div>
           <div className="flex-1 min-w-0">
-            <p className="text-sm font-medium text-slate-900 dark:text-white truncate">Admin Vet</p>
-            <p className="text-xs text-slate-500 dark:text-slate-400 truncate">admin@portalvet.com</p>
           </div>
           <button className="p-2 rounded-lg hover:bg-slate-200 dark:hover:bg-white/10 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors">
             <Settings className="h-4 w-4" />

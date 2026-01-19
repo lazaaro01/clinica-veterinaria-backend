@@ -1,8 +1,17 @@
-node_modules
-# Keep environment variables out of version control
+# Arquivos de ambiente
 .env
-# Igonre lof files
-*.log
-# Ignore build output
-dist/
-build/
+.env.*
+!.env.example
+!.env.sample
+
+# Node / logs (opcional, mas comum)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# SO / IDE
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
